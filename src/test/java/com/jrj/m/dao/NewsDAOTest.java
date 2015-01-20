@@ -65,7 +65,7 @@ public class NewsDAOTest {
 	    public void getNewsTest() {
 	    	
 	    	News news=new News();
-	    	news.setIiid(12);
+	    	news.setIiid(13);
 	    	news.setIntro("jrj_news");
 	    	news.setTitle("jrj_newss");
 	    	

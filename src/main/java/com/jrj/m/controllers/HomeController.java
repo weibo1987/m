@@ -23,6 +23,6 @@ import net.paoding.rose.web.annotation.rest.Get;
 public class HomeController {
 	@Get
 	public String redirect() {
-		return "r:/news/hot";
+		return "r:/news/hots";
 	}
 }

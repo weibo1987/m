@@ -32,12 +32,13 @@ public class NewsController {
 	@Autowired     
 	private NewsService newsService; 
 	
-	@Get
+	@Get("hots")
 	public String hot(Invocation inv)
 	{
 		List<News> newsList = newsService.find(); 
-		inv.addModel("newsList", newsList);         
-		return "@index"; 
+		inv.addModel("newsList", newsList);        
+		System.err.println("--------------------------------------------");
+		return "index"; 
 	}
 
 }
