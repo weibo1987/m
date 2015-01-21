@@ -12,7 +12,7 @@
 		<!-- the default host, matching any host name -->
 		<host id="" root-directory=".">
 			<!-- - webapps can be overridden/extended in the resin.xml -->
-			<web-app id="/" root-directory="webapp" />
+			<web-app id="/" root-directory="src/main/webapp" />
 		</host>
 	</cluster>
 </resin>
